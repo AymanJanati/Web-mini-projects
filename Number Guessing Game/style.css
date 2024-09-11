@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 24px;
+    background-color: rgb(4, 4, 75);
+    color: aliceblue;
+}
+
+.buttons{
+    padding: 10px 10px;
+    color: aliceblue;
+    background-color: brown;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.buttons:hover {
+    opacity: 1;
+    background-color: blueviolet;
+}
+
+.input {
+    height: 2em;
+    width: 200px;
+    font-size: 15px;
+}
