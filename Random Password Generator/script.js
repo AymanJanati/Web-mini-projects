@@ -17,7 +17,6 @@ const max = 20;
 
 gen.onclick = function() {
     let size = Math.floor(Math.random() * (max - min + 1)) + 12; //For dynamic password size, and to be in the strong passwords range
-    console.log(size);
     valide = "";
     if(upper.checked)
         valide += uppers;
